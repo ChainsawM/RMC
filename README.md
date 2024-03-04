@@ -53,15 +53,17 @@ python ./src/evaluating/direct_plm_evaluating.py --dataset_name base --model_nam
 
 * Evaluation of LMs fine-tuned on CitationR
 ```bash
-python ./src/evaluating/evaluate.py --dataset_name base --config_name ft_plm_no_linear --experiment_name scincl_atten_no_linear_rf6_1
+python ./src/evaluating/evaluate.py --dataset_name base --config_name example --experiment_name example_evaluation
 ```
 
 * Train
 ```bash
-python ./src/training/run_training.py --model scincl --dataset base --config_name ft_plm_no_linear --experiment_suffix  example_running --way_ref atten --ratio_ref 0.6
+python ./src/training/run_training.py --model scincl --dataset base --config_name example --experiment_suffix example_train
 ```
 
-Our fine-tuned models are available: [base]()(access code: ), [extended]()(access code: ).
+Our fine-tuned models are available: [base](https://pan.baidu.com/s/1jfmYX3fftWb8PCd29JLJNQ?pwd=nrbe)(access code: nrbe), [extended](https://pan.baidu.com/s/1E6FNJLKoqxUujUI-g6Xe2A?pwd=n3pb)(access code: n3pb).
+
+Put downloaded models under `experiments/dataset_name/example_evaluation/model/`
 
 ## Citation
 If you find our work useful, please cite the paper as:

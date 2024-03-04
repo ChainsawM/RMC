@@ -1,0 +1,16 @@
+/.idea/
+
+# pycache
+*/__pycache__/*
+*/*/__pycache__/*
+*/*/*/__pycache__/*
+*/*/*/*/__pycache__/*
+
+/data/*/*.json
+/data/*/*.jsonl
+/data/*.zip
+/data/total*.json
+
+/model_hub/
+/experiments/
+/data_raw/

@@ -1,0 +1,8 @@
+cupy
+faiss_cpu
+matplotlib
+nltk
+numpy
+torch
+transformers
+Whoosh
