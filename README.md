@@ -1,7 +1,7 @@
 # RMC - Recommending Missed Citations Identified by Reviewers
 
 This repository contains datasets and code for our COLING 2024 paper:
-["Recommending Missed Citations Identified by Reviewers: A New Task, Dataset and Baselines"]().
+["Recommending Missed Citations Identified by Reviewers: A New Task, Dataset and Baselines"](http://arxiv.org/pdf/2403.01873.pdf).
 
 
 ## The CitationR Dataset
